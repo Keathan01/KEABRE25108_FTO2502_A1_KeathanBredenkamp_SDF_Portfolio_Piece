@@ -227,13 +227,16 @@ width: 100%;
     grid-template-rows: 1fr 1fr;
     padding-left: 40px;
     background-color: #b4d3c7;
+    width: auto;
+    height: auto;
  
 }
 .tool{
     display: flex;
     flex-direction: column;
  gap: 30px;
-    align-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
 }
 .Experience{
     width: 100%;
@@ -279,11 +282,6 @@ a{
    
 
 }
-
-
-
-
-
 
 
 
