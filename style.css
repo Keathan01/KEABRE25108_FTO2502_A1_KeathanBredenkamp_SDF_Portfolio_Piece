@@ -14,7 +14,8 @@ padding: 20px;
    
   
 }
-.user-name{
+.user-name
+{
     font-weight: bold;
     font-size: 22px;
     color: #000;
@@ -139,7 +140,7 @@ padding: 20px;
     width: 100%;
     height: auto;
     background-color: #ffffff;
-    padding: 20px;
+    padding: 10px;
     border-radius: 24px;
    
 }
@@ -150,25 +151,33 @@ padding: 20px;
     box-shadow: 0px 0px 2px #dadada;
     padding-left: 19px;
     padding-right:19px ;
-    padding-top: 22px;
-    padding-bottom: 22px;
+  padding-top: 5px;
+  padding-bottom: 5px;
     background-color: #E7F0EC;
  
     
 }
+.heading5{
+   margin: 0;
+
+ 
+}
+
 
 .vector{
     position: relative;
-    left: 200px;
-    bottom: 40px;
+    left: 220px;
+    bottom: 20px;
 }
 .flex-project{
  display: flex;
  flex-wrap: wrap;
  gap: 20px;
+ justify-content: space-evenly;
+
 } 
 .Edu-tool{
-width: auto;
+width: 100%;
     display: grid;
     grid-template-columns:1fr 1fr;
     gap:20px;
@@ -195,6 +204,10 @@ width: auto;
     overflow: hidden;
     margin-bottom: 20px;
 }
+.brief{ 
+    font-weight: bold;
+
+}
 .heading3{
     display: flex;
     justify-content: center;
@@ -203,9 +216,27 @@ width: auto;
     background-color: #b4d3c7;
     border: 1px solid #b4d3c7 ;
     text-align:center;
+   
+}
+.u{
+    background-color:#ffffff;
+}
+.k{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 40px;
+    background-color: #b4d3c7;
+ 
+}
+.tool{
+    display: flex;
+    flex-direction: column;
+ gap: 30px;
+    align-content: space-evenly;
 }
 .Experience{
-    width: 1000px;
+    width: 100%;
     border-radius: 12px;
     background-color: #ffffff;
     padding: 20px;
@@ -293,6 +324,11 @@ a{
     display: grid;
     grid-template-columns: 1fr;
 }
+.heading2{
+    justify-content: flex-start;
+    display: flex;
+   
+}
 
 .Edu-tool{
     width: auto;
@@ -302,7 +338,11 @@ a{
         border-radius: 12px;
         padding: 20px;
     }
-
+.tool{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    justify-content: space-evenly;
 
 
 }
