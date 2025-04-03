@@ -55,8 +55,8 @@ margin: 2.5rem;
     display: grid;
     grid-template-columns: 1fr 1fr ;
     gap: 1.25rem;
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
+    margin-top: 1.875rem;
+    margin-bottom:1.875rem;
 
 }
 
@@ -151,7 +151,7 @@ margin: 2.5rem;
 #first-project-selector{
     background-color:#4A8B70;
      color: #fff;
-     height: 28.125rem;
+     height: 29.375rem;
 
 }
 .project-tag{
@@ -196,8 +196,8 @@ margin: 2.5rem;
     grid-template-columns:80% 20%;
     gap:0.625rem;
     border-radius: 0.75rem;
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
+    margin-top: 1.875rem;
+    margin-bottom:1.875rem;
 }
 .Edu{
    
@@ -218,7 +218,7 @@ margin: 2.5rem;
   border-radius: 0.75rem;
     background-color:#E7F0EC;
     overflow: hidden;
-    margin-bottom: 1.25rem;
+    margin-bottom:1.875rem;
  padding: 1.25rem;
 }
 .brief{ 
@@ -333,11 +333,11 @@ margin: 2.5rem;
 
 }
 footer{
-    margin-top: 1.25rem;
+    margin-top: 1.875rem;
 background-color: #D76239;
 color: #ffffff;
 border-radius: 1.5rem;
-padding: 1.563rem;
+padding: 0.625rem 1.563rem 1.563rem;
 }
 
 #footer-email{
