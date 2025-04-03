@@ -198,6 +198,8 @@ margin: 2.5rem;
     border-radius: 0.75rem;
     margin-top: 1.875rem;
     margin-bottom:1.875rem;
+ 
+    
 }
 .Edu{
    
@@ -205,6 +207,7 @@ margin: 2.5rem;
     background-color: #ffffff;
     padding: 1.25rem;
     overflow: hidden;
+    
 }
 .tool{
     width: 12.5rem;
@@ -214,12 +217,13 @@ margin: 2.5rem;
 }
 .Edu-layout{
   display: flex;
-  justify-content: flex-start;
   border-radius: 0.75rem;
     background-color:#E7F0EC;
     overflow: hidden;
-    margin-bottom:1.875rem;
+margin-bottom: 1.875rem;
  padding: 1.25rem;
+ 
+
 }
 .brief{ 
     font-weight: bold;
@@ -258,22 +262,22 @@ margin: 2.5rem;
     padding-bottom: 1.25rem;
 }
 .icons{
+    position: relative;
+    bottom: 2.5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    margin-bottom: 3.063rem;
     margin-left: 1.85rem;
     gap:2.5rem;
     align-items: center;
     border-radius: 1.5rem;
-    height: 100%;
+   
 }
 .tool{
     display: flex;
     flex-direction: column;
-    gap: 3.125rem;
+    row-gap: 3rem;
     margin-left: auto;
-    margin-top: 1.688rem;
     margin-right: auto;
 }
 .school{
@@ -308,6 +312,7 @@ margin: 2.5rem;
 }
 .jobs{
     font-weight: normal;
+  
 }
 .position{
     font-weight: 500;
