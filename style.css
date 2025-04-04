@@ -251,6 +251,9 @@ margin-bottom: 1.875rem;
     width: 50%;
     font-weight: normal;
 
+
+   
+
 }
 .tool-container{
     background-color:#ffffff;
@@ -423,15 +426,24 @@ height:200px ;
         row-gap: 10px;
         column-gap: 10px;
     }
+   
 
     .languages:nth-child(1){
         order: 3; 
+        object-fit: cover;
+        width: 500px;
+       text-align: center;
+       display: inline;
+     
     }
     .languages:nth-child(2){
         order: 1; 
+      
+        
     }
     .languages:nth-child(3){
         order: 2; 
+        
     }
     .tool{
         position: relative;
@@ -443,10 +455,20 @@ height:200px ;
         margin-top: 0px;
     }
     #logo-selector-center{
+     position: relative;
        text-align: center;
        left: 20px;
        object-fit: cover;
-    }
+       font-weight: normal;
 
+}
+.recent{
+align-self: center;
+    white-space: nowrap;
+    display: inline-block;
+    padding: 0.2rem 1.5rem;
+}
+.me{
+   padding-top: 10px;
 }
 }
