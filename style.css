@@ -512,7 +512,24 @@ padding: 0.625rem 1.563rem 1.563rem;
         gap: 20px;
         border-radius: 12px;
     }
+.project-tag{
+    height: 100%;
+    font-size: 16px;
 
+}
+.year{
+    display: flex;
+    justify-self: start;
+}
+.heart{
+position: relative;
+left: 100px;
+
+}
+#first-project-selector{
+    height: 100%;
+
+}
     .Experience {
         padding: 10px;
         width: auto;
