@@ -360,16 +360,8 @@ padding: 0.625rem 1.563rem 1.563rem;
 
 
 
-
-
+  
 @media (max-width: 768px) {
-    .header {
-        display: grid;
-        grid-template-columns:50% 50%;
-        gap: 10px; 
-    
-    }
-
     .Profile-pic {
       width: 96px;
       height: 96px;
@@ -377,6 +369,7 @@ padding: 0.625rem 1.563rem 1.563rem;
      
     }
     .header img{
+
         object-fit: cover;
     }
     
@@ -387,34 +380,73 @@ padding: 0.625rem 1.563rem 1.563rem;
      
     }
 
-.mastery{
-    display: grid;
-    grid-template-columns: 1fr;
-}
-.heading2{
-    justify-content: flex-start;
-    display: flex;
-    font-size: 14px;
-   
-}
-h2{
-    font-size: 14px;
-}
-
-.Edu-tool{
-    width: auto;
+    .header {
         display: grid;
-        grid-template-columns:1fr;
-        gap:20px;
-        border-radius: 12px;
-        padding: 20px;
+        grid-template-columns:50% 50%;
+        gap: 10px; 
+height:200px ;
+    
     }
-.tool{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
-    justify-content: space-evenly;
+    .mastery{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .heading2{
+        justify-content: flex-start;
+        display: flex;
+        font-size: 14px;
+       
+    }
+    h2{
+        font-size: 14px;
+    }
+    
+    .Edu-tool{
+        width: auto;
+            display: grid;
+            grid-template-columns:1fr;
+            gap:20px;
+            border-radius: 12px;
+            padding: 20px;
+        }
+    .tool{
+      display: flex;
+      flex-direction: row;
+   height: auto;
+      justify-content: space-evenly;
+      column-gap:50px ;
+    }
+    .icons{
+        margin-left: 0px;
+        display: grid;
+        grid-template-columns:1fr 1fr ;
+        row-gap: 10px;
+        column-gap: 10px;
+    }
 
+    .languages:nth-child(1){
+        order: 3; 
+    }
+    .languages:nth-child(2){
+        order: 1; 
+    }
+    .languages:nth-child(3){
+        order: 2; 
+    }
+    .tool{
+        position: relative;
+        right:  170px;
+        justify-content: space-evenly;
+    }
+   
+    .heading3{
+        margin-top: 0px;
+    }
+    #logo-selector-center{
+       text-align: center;
+       left: 20px;
+       object-fit: cover;
+    }
 
 }
 }
