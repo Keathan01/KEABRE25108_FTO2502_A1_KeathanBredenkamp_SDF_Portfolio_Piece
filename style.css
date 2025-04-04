@@ -365,6 +365,8 @@ padding: 0.625rem 1.563rem 1.563rem;
 
   
 @media (max-width: 768px) {
+
+  
     .Profile-pic {
       width: 96px;
       height: 96px;
@@ -372,25 +374,31 @@ padding: 0.625rem 1.563rem 1.563rem;
      
     }
     .header img{
-
+width: 90%;
+height: 100%;
         object-fit: cover;
     }
     
 
     .Bio {
-        font-size: 10px;
+        font-size: 11px;
         overflow: hidden;
-     
+     width: auto;
+     height: 90%;
+  
     }
 
     .header {
         display: grid;
-        grid-template-columns:50% 50%;
+        grid-template-columns:1fr 1fr;
         gap: 10px; 
-height:200px ;
+margin-bottom: 250px;
+height: 200px;
+gap: 0;
     
     }
     .mastery{
+     
         display: grid;
         grid-template-columns: 1fr;
     }
@@ -400,18 +408,23 @@ height:200px ;
         font-size: 14px;
        
     }
-    h2{
-        font-size: 14px;
+    .Edu{
+        width: auto;
     }
-    
+  
     .Edu-tool{
         width: auto;
             display: grid;
             grid-template-columns:1fr;
             gap:20px;
             border-radius: 12px;
-            padding: 20px;
+         
         }
+.Experience{
+    padding: 10px;
+    width: auto;
+}
+
     .tool{
       display: flex;
       flex-direction: row;
@@ -426,47 +439,45 @@ height:200px ;
         row-gap: 10px;
         column-gap: 10px;
     }
-   
 
     .languages:nth-child(1){
         order: 3; 
-        object-fit: cover;
-        width: 500px;
-       text-align: center;
-       display: inline;
      
+  margin-right: 150px;
+   
+   
     }
-    .languages:nth-child(2){
-        order: 1; 
-      
-        
-    }
+.languages:nth-child(2){
+
+    order: 1;
+}
     .languages:nth-child(3){
-        order: 2; 
-        
+        order: 2;
     }
     .tool{
-        position: relative;
-        right:  170px;
-        justify-content: space-evenly;
+     width: auto;
+
+margin:50px;
+     
     }
    
     .heading3{
         margin-top: 0px;
+        font-size: 24px;
     }
-    #logo-selector-center{
-     position: relative;
-       text-align: center;
-       left: 20px;
-       object-fit: cover;
-       font-weight: normal;
+  #logo-selector-center{
+  width: 80%;
+    position: relative;
+    left: auto;
 
-}
+  }
+
+       
+
+
 .recent{
-align-self: center;
-    white-space: nowrap;
-    display: inline-block;
-    padding: 0.2rem 1.5rem;
+  align-self: center;
+  white-space: nowrap;
 }
 .me{
    padding-top: 10px;
