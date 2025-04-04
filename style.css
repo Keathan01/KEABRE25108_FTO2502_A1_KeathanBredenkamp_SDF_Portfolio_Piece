@@ -29,13 +29,14 @@ margin: 2.5rem;
     line-height: 1.5rem;
     font-weight: normal;
     border: 0.063rem solid #ffffff;
-    background-color: #ffffff;
+    background-color:#ffffff;
     padding: 1.5rem;
-    border-radius: 0.75rem;
+    border-radius: 1.5rem;
     box-shadow: 0px 0px 0.188rem #dadada;
     width: 93%;
-    height: auto;
+    height:auto;
   object-fit: cover;
+
 } 
 .header img{
     width: 100%;
@@ -48,7 +49,6 @@ margin: 2.5rem;
     display: grid;
     grid-template-columns: 20% 80%;
     gap: 1.25rem;
-     
 }
 
 .mastery{
@@ -63,7 +63,7 @@ margin: 2.5rem;
 .left{
     background-color: #ffffff;
     padding: 1.25rem;
-    border-radius: 0.75rem;
+    border-radius:1.5rem;
     box-shadow: 0px 0px 0.125rem #dadada;
     
 }
@@ -113,7 +113,7 @@ margin: 2.5rem;
 
 .right{
     background-color: #ffffff;
-    border-radius: 0.75rem;
+    border-radius: 1.5rem;
     padding: 1.25rem;
    width: auto;
 
@@ -121,7 +121,7 @@ margin: 2.5rem;
 .skill-tag{
     background-color: #E7F0EC;
     padding: 0.5rem 0.875rem;
-    border-radius: 6px;
+    border-radius:1.5rem;
     display: inline-block;
     font-size: 0.875rem;
     list-style: none;
@@ -157,7 +157,7 @@ margin: 2.5rem;
 .project-tag{
     width: 15rem;
     height:auto;
-    border-radius: 0.75rem;
+    border-radius: 1.5rem;
     box-shadow: 0px 0px 0.125rem #dadada;
     padding-left: 1.188rem;
     padding-right:1.188rem;
@@ -195,7 +195,7 @@ margin: 2.5rem;
     display: grid;
     grid-template-columns:80% 20%;
     gap:0.625rem;
-    border-radius: 0.75rem;
+    border-radius: 1.5rem;
     margin-top: 1.875rem;
     margin-bottom:1.875rem;
  
@@ -203,7 +203,7 @@ margin: 2.5rem;
 }
 .Edu{
    
-    border-radius: 0.75rem;
+    border-radius: 1.5rem;
     background-color: #ffffff;
     padding: 1.25rem;
     overflow: hidden;
@@ -212,12 +212,12 @@ margin: 2.5rem;
 .tool{
     width: 12.5rem;
     background-color: #ffffff;
-    border-radius: 0.75rem;
+    border-radius: 1.5rem;
 
 }
 .Edu-layout{
   display: flex;
-  border-radius: 0.75rem;
+  border-radius:1.5rem;
     background-color:#E7F0EC;
     overflow: hidden;
 margin-bottom: 1.875rem;
@@ -294,7 +294,7 @@ margin-bottom: 1.875rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-radius: 0.75rem;
+    border-radius: 1.5rem;
     background-color: #E7F0EC;
     overflow: hidden;
     margin-bottom: 1.25rem;
@@ -303,7 +303,7 @@ margin-bottom: 1.875rem;
 #exp2{
     display: flex;
     justify-content: start;
-    border-radius: 0.75rem;
+    border-radius: 1.5rem;
     background-color: #E7F0EC;
     margin-bottom: 1.25rem;
     padding: 0px 1.25rem 1.25rem 1.25rem;
@@ -321,7 +321,7 @@ margin-bottom: 1.875rem;
 .recent{
    
     background-color:#D76239;
-    border-radius: 0.75rem;
+    border-radius: 1.5rem;
     border: 0.063rem solid #D76239;
     height: 0.625rem;
     font-size: 0.625rem;
@@ -369,27 +369,26 @@ padding: 0.625rem 1.563rem 1.563rem;
 @media (max-width: 768px) {
     .header {
         display: grid;
-        grid-template-columns: 50% 50%; 
-      
+        grid-template-columns:50% 50%;
         gap: 10px; 
     }
 
     .Profile-pic {
-        width: 100%;
-        height: auto; 
-        max-width: 120px; 
+      width: 96px;
+      height: 96px;
+        border-radius:1.5rem;
+     
     }
-    .user-name{
-        font-size: 16px;
+    .header img{
+        
+        object-fit: cover;
     }
+    
 
     .Bio {
         font-size: 10px;
         overflow: hidden;
-        height: auto; 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+     
     }
 
 .mastery{
