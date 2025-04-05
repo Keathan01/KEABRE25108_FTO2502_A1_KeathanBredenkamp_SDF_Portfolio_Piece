@@ -127,6 +127,23 @@ margin: 2.5rem;
     margin: 0.313rem;
    
 }
+
+.skill-tag:hover,
+.project-tag:hover,
+.icons img:hover,
+.Edu-layout:hover,
+#first-element-selector:hover,
+.Exp:hover,
+#exp2:hover,
+#footer-email:hover,
+.footer-border-left:hover
+{
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
 .heading-2 {
     display: flex;
     justify-content: center;
